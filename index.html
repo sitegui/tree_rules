@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tree rules</title>
+    <style>
+        textarea {
+            width: 40em;
+            height: 30em;
+        }
+    </style>
+</head>
+<body>
+<h1>Tree rules</h1>
+<p>Paste in the area bellow the CSV contents of the rules.
+    The CSV must have a header in the first row and use commas to separate fields.
+    Note that I'm too lazy to parse a proper CSV format, so quotes and other advanced syntax are not supported.</p>
+<p><button id="example-btn">Show me an example</button></p>
+<textarea id="rules"></textarea>
+<p>
+    <button id="process-btn">Process</button>
+</p>
+<h1>Result</h1>
+<p id="result"></p>
+<script src="index.js"></script>
+</body>
+</html>
